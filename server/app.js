@@ -11,6 +11,7 @@ app.use(
   "/graphql",
   graphqlHTTP({
     schema,
+    graphiql: true
     // pass in a schema property
   })
 );
