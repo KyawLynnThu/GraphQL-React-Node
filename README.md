@@ -1,14 +1,6 @@
 # GraphQL-React-Node
 Client(React+Apollo), Server(NodeJS+GraphQL), Database(MongoDB)
 
---- USEFUL TIP ----
-Hey guys, if you'd like to run both server and client at once you can use concurrently (https://www.npmjs.com/package/concurrently). 
-After installing concurrently (`npm i concurrently -S`) on the server side, in my `/server/package.json` I have the following scripts:
+![GraphiQL](https://github.com/KyawLynnThu/GraphQL-React-Node/assets/67432058/bd9b926c-b4fe-4629-b339-f8db32ed24de)
 
-  "scripts": {
-    "client": "npm run start --prefix ../client",
-    "server": "nodemon app.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
-  }
-
-Thus, when you type `npm run dev` it will start both your API and your React app in the same terminal/shell. Hope you find this useful!
+![React-App](https://github.com/KyawLynnThu/GraphQL-React-Node/assets/67432058/4c01e92a-4043-4a57-a4cd-4bcec9b00d89)
